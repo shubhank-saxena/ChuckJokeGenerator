@@ -1,6 +1,6 @@
 document.querySelector('#submit').addEventListener
 ('click', getJokes);
-
+//starting getJokes function
 function getJokes(e){
 	var number= document.querySelector('#number').value;
 
@@ -30,4 +30,4 @@ function getJokes(e){
 		xhr.send();
 
 	e.preventDefault();
-}
+}	//End
