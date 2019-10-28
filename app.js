@@ -20,8 +20,6 @@ function getJokes(e){
 				response.value.forEach(function(joke){
 					content += `<li>${joke.joke}</li>`
 				});
-
-				console.log(content);
 			}
 			document.querySelector('.jokes').innerHTML= content;
 		}
